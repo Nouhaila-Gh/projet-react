@@ -64,7 +64,7 @@ function Grp204WeatherApp() {
             {weather.error && (
                 <span className="error-message">
                     <FontAwesomeIcon icon={faFrown} />
-                    <span>Ville introuvable</span>
+                    <span>Ville incorrect</span>
                 </span>
             )}
             {weather && weather.data && weather.data.main && (
